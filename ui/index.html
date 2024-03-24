@@ -1,6 +1,5 @@
 ---
-title: "My first 11ty static site page"
-description: "This is a build test for 11ty on express.js"
+title: "Login"
 permalink: '/'
 eleventyNavigation:
     key: 'Main'
@@ -13,5 +12,17 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-<h1>Hi from 11ty</h1>
+<section>
+  <form action="">
+    <div class="formfield">
+      <label>email</label>
+      <input type="email" name="email" value="" id="email">
+    </div>
+    <div class="formfield">
+      <label>password</label>
+      <input type="password" name="password" value="" id="password">
+    </div>
+    <button type="submit">Login</button>
+  </form>
+</section>
 {% endblock %}
