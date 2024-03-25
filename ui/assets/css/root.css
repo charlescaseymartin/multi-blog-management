@@ -1,0 +1,12 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  margin: 0px;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+}
